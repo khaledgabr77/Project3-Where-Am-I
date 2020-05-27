@@ -28,9 +28,9 @@
 
   <!-- Spawn My Robot -->
   <!--launch rviz-->
-<node type="rviz" name="rviz" pkg="rviz" args="-d $(find my_robot)/rviz/rviz_config.rviz" />
-
- 
+  <!--node type="rviz" name="rviz" pkg="rviz" args="-d $(find my_robot)/rviz/rviz_config.rviz"-->
+  <node type="rviz" name="rviz" pkg="rviz" output = "screen"/>
+  
   <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" 
         args="-urdf -param robot_description -model my_robot 
               -x $(arg x) -y $(arg y) -z $(arg z)

@@ -1,2 +1,2 @@
-my_robot:pgm_map_creator
+my_robot:pgm_map_creator:teleop_twist_keyboard
 -DCATKIN_DEVEL_PREFIX=/home/khaled/project3_WhereAm_I/devel -DCMAKE_INSTALL_PREFIX=/home/khaled/project3_WhereAm_I/install -G Unix Makefiles

@@ -127,6 +127,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/khaled/project3_WhereAm_I/build/gtest/cmake_install.cmake")
   include("/home/khaled/project3_WhereAm_I/build/my_robot/cmake_install.cmake")
+  include("/home/khaled/project3_WhereAm_I/build/teleop_twist_keyboard/cmake_install.cmake")
   include("/home/khaled/project3_WhereAm_I/build/pgm_map_creator/cmake_install.cmake")
 
 endif()
