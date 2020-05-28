@@ -12,9 +12,10 @@
     <param name="min_particles" value="50"/>
     <param name="max_particles" value="200"/>
     <param name="update_min_a" value="0.1"/>
-    <param name="update_min_d" value="0.25"/>
-    <param name="initial_pose_x" value="0"/>
-    <param name="initial_pose_y" value="0"/>
+    <param name="update_min_d" value="0"/>
+    <param name="initial_pose_x" value="-0.336"/>
+    <param name="initial_pose_y" value="-2.029"/>
+    <param name="initial_pose_a" value="-1.601" />
     <!-- Laser -->
     
     <param name = "laser_max_beams" value = "20"/>
